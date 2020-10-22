@@ -10,3 +10,5 @@ llibrary/
 logs/
 
 *.log
+
+minecraftinstance.json
