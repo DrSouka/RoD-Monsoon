@@ -1,2 +1,12 @@
 
 .curseclient
+
+.mixin.out/
+
+libraries/
+
+llibrary/
+
+logs/
+
+*.log
