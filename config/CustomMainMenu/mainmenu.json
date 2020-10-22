@@ -4,20 +4,20 @@
         "title":
         {
             "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
+            "posX" : -122,
             "posY" : 30,
-            "width" : 512,
-            "height" : 512,
+            "width" : 244,
+            "height" : 36,
             "alignment" : "top_center"
         },
         
         "edition":
         {
             "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
+            "posX" : -64,
             "posY" : 67,
             "width" : 128,
-            "height" : 16,
+            "height" : 15,
             "alignment" : "top_center"
         }
     },
@@ -51,27 +51,13 @@
                 "gui" : "multiplayer"
             }
         },
-        
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
             
         "options":
         {
             "text" : "menu.options",
             "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "posY" : 96,
+            "width" : 200,
             "height" : 20,
             "action" : 
             {
@@ -83,9 +69,9 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 200,
             "height" : 20,
             "action" : 
             {
@@ -93,11 +79,25 @@
             }
         },
         
+        "mods":
+        {
+            "text" : "Mods [#modsloaded#]",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 67,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        
         "language":
         {
             "text" : "",
             "posX" : -124,
-            "posY" : 132,
+            "posY" : 96,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -119,6 +119,15 @@
             {
                 "type" : "refresh"
             }
+        },
+
+        "clock":{
+           "text":"#time# #date#",
+           "posX":-110,
+           "posY":-33,
+           "width":90,
+           "height":0,
+           "alignment":"bottom_right"
         }
     },
     
@@ -127,7 +136,6 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -139,11 +147,21 @@
             }
         },
         
-        "fml":
+        "Version":
         {
-            "text" : "",
+            "text" : "Risk of Death - Monsoon Edition",
+            "hoverText" : "v0.1.0",
             "posX" : 2,
-            "posY" : -40,
+            "posY" : -30,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        
+        "Powered":
+        {
+            "text" : "Powered by\nDrSouka and Havachi",
+            "posX" : 2,
+            "posY" : -20,
             "color" : -1,
             "alignment" : "bottom_left"
         }
@@ -157,7 +175,7 @@
             "posY" : 70,
             "color" : -256,
             "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
+            "texts" : "Get lucky !"
         },
         
         "panorama":
