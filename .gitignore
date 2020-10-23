@@ -12,3 +12,13 @@ logs/
 *.log
 
 minecraftinstance.json
+
+config/antiqueatlas/biome_textures.json
+
+config/AppliedEnergistics2/VersionChecker.cfg
+
+config/InvTweaks/InvTweaks.cfg
+
+config/splash.properties
+
+journeymap/
