@@ -3,21 +3,21 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
+            "image" : "mainmenu:risk-of-death.png",
+            "posX" : -135,
             "posY" : 30,
-            "width" : 512,
-            "height" : 512,
+            "width" : 270,
+            "height" : 40.4,
             "alignment" : "top_center"
         },
 
         "edition":
         {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
+            "image" : "mainmenu:edition.png",
+            "posX" : -62.5,
             "posY" : 67,
-            "width" : 128,
-            "height" : 16,
+            "width" : 125,
+            "height" : 14.75,
             "alignment" : "top_center"
         }
     },
@@ -27,9 +27,9 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
+            "posX" : -150,
             "posY" : 48,
-            "width" : 200,
+            "width" : 100,
             "height" : 20,
             "action" :
             {
@@ -41,9 +41,9 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : -150,
+            "posY" : 77,
+            "width" : 100,
             "height" : 20,
             "action" :
             {
@@ -52,26 +52,12 @@
             }
         },
 
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" :
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : -150,
+            "posY" : 106,
+            "width" : 100,
             "height" : 20,
             "action" :
             {
@@ -80,41 +66,43 @@
             }
         },
 
+        "mods":
+        {
+            "text" : "Mods (#modsloaded#)",
+            "posX" : 50,
+            "posY" : 48,
+            "width" : 100,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
+            "posX" : -98,
+            "posY" : -20,
             "width" : 98,
             "height" : 20,
+            "alignment" : "bottom_right",
             "action" :
             {
                 "type" : "quit"
             }
         },
 
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" :
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "posX" : -117,
+            "posY" : -20,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:textures/gui/buttons.png",
+            "alignment" : "bottom_right",
             "action" :
             {
                 "type" : "refresh"
@@ -124,13 +112,13 @@
 
     "labels":
     {
-        "mojang":
+        "by":
         {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
+            "text" : "by DrSouka & Havachi",
+            "posX" : -110,
+            "posY" : 2,
             "color" : -1,
-            "alignment" : "bottom_right",
+            "alignment" : "top_right",
             "action" :
             {
                 "type" : "openGui",
@@ -138,37 +126,32 @@
             }
         },
 
-        "Version":
+        "version":
         {
-            "text" : "Risk of Death - Monsoon Edition",
-            "hoverText" : "RoD-Monsoon v0.1.0",
-            "posX" : 2,
-            "posY" : -30,
+            "text" : "v0.1.0",
+            "posX" : -29,
+            "posY" : 12,
             "color" : -1,
-            "alignment" : "bottom_left"
+            "alignment" : "top_right"
         },
 
-        "Powered":
+        "mojang":
         {
-            "text" : "Powered by\nDrSouka and Havachi",
+            "text" : "Copyright Mojang AB. Do not distribute!",
             "posX" : 2,
-            "posY" : -20,
+            "posY" : -10,
             "color" : -1,
-            "alignment" : "bottom_left"
+            "alignment" : "bottom_left",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
         }
     },
 
     "other":
     {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-
         "panorama":
         {
             "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
