@@ -143,16 +143,16 @@
             "text" : "Risk of Death - Monsoon Edition",
             "hoverText" : "RoD-Monsoon v0.1.0",
             "posX" : 2,
-            "posY" : -30,
+            "posY" : -20,
             "color" : -1,
             "alignment" : "bottom_left"
         },
 
         "Powered":
         {
-            "text" : "Powered by\nDrSouka and Havachi",
+            "text" : "By DrSouka and Havachi",
             "posX" : 2,
-            "posY" : -20,
+            "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_left"
         }
