@@ -128,7 +128,7 @@
             "hoverText" : "    RoD - Monsoon Wiki",
             "posX" : -110,
             "posY" : 2,
-            "color" : -1,
+            "color" : -102300,
             "alignment" : "top_right",
             "action" :
             {
@@ -142,7 +142,7 @@
             "text" : "v0.1.0",
             "posX" : -29,
             "posY" : 12,
-            "color" : -1,
+            "color" : -100,
             "alignment" : "top_right"
         },
 
@@ -151,7 +151,7 @@
             "text" : "Copyright Mojang AB. Do not distribute!",
             "posX" : 2,
             "posY" : -10,
-            "color" : -1,
+            "color" : -150,
             "alignment" : "bottom_left",
             "action" :
             {
