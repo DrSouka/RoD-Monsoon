@@ -115,14 +115,15 @@
         "by":
         {
             "text" : "by DrSouka & Havachi",
+            "hoverText" : "    RoD - Monsoon Wiki",
             "posX" : -110,
             "posY" : 2,
             "color" : -1,
             "alignment" : "top_right",
             "action" :
             {
-                "type" : "openGui",
-                "gui" : "credits"
+                "type" : "openLink",
+                "link" : "https://github.com/Mindissu/RoD-Monsoon/wiki"
             }
         },
 
