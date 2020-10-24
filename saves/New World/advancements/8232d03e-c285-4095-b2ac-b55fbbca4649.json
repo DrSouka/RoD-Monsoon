@@ -1,0 +1,22 @@
+{
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2020-10-24 15:52:26 +0200"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2020-10-24 15:52:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-10-24 15:52:26 +0200",
+      "deep_ocean": "2020-10-24 16:12:40 +0200",
+      "beaches": "2020-10-24 16:11:02 +0200"
+    },
+    "done": false
+  }
+}
