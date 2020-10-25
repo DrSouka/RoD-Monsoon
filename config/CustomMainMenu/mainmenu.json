@@ -88,6 +88,22 @@
             }
         },
 
+        "musics":
+        {
+            "text" : "Musics",
+            "posX" : 50,
+            "posY" : 77,
+            "width" : 100,
+            "height" : 20,
+            "hoverTextColor" : -110000,
+			      "texture" : "mainmenu:transparent.png",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/Mindissu/RoD-Monsoon/wiki/Musics"
+            }
+        },
+
         "quit":
         {
             "text" : "menu.quit",
